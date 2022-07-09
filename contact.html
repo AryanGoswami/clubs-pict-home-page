@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome.com">
+    <script src="https://kit.fontawesome.com/44a5a88e05.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="">Various Clubs</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>CONTACT US!!</h1><br>
+            <!-- <h1>PICT's First Ever Website Which Will Give You All The Information About Various Clubs</h1> -->
+            <a href="index.html" target="_blank" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    <!-- Contact Us -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.5761897254224!2d73.84864491484174!3d18.45754208744567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eac85230ba47%3A0x871eddd0a8a0a108!2sSCTR&#39;S%20Pune%20Institute%20of%20Computer%20Technology!5e0!3m2!1sen!2sin!4v1655175930659!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                        <span>
+                            <h5>XYZ Road abc Building</h5>
+                            <p>Pune, Maharashtra, IN</p>
+                        </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+91 9420201407</h5>
+                            <p>Monday To Saturday, After 3pm</p>
+                        </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>info@gmail.com</h5>
+                            <p>Email Us your Query</p>
+                        </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email address" required>
+                    <input type="number" name="subject" placeholder="Enter Your Roll No.">
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Submit Now</button>
+                </form>
+            </div>
+        </div>
+        <div class="wrapper-grid">
+            <div class="container">
+                <div class="banner-img_"></div>
+                <img src="https://scontent.fbom47-1.fna.fbcdn.net/v/t39.30808-6/265207235_4584741704966538_4469621254575298160_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ClenRNNNU9IAX9qatsn&_nc_ht=scontent.fbom47-1.fna&oh=00_AT9IkW1_TX0Jy7JWSFhocy81omPLEoATTQNJFpWtd7XymA&oe=62BEE653" alt="profile image" class="profile-img">
+                <h1 class="name">Aryan Goswami</h1>
+                <p class="description">Hi there! My name is Aryan</p>
+                <button class="btn">Contact Me!</button>
+            </div>
+            <div class="container">
+                <div class="banner-img1"></div>
+                <img src="" alt="profile image" class="profile-img">
+                <h1 class="name">Raj Gharat</h1>
+                <p class="description">Hi there! My name is Raj</p>
+                <button class="btn">Contact Me!</button>
+            </div>
+            <div class="container">
+                <div class="banner-img2"></div>
+                <img src="" alt="profile image" class="profile-img">
+                <h1 class="name">Sankalp Patil</h1>
+                <p class="description">Hi there! My name is Sankalp</p>
+                <button class="btn">Contact Me!</button>
+            </div>
+            <div class="container">
+                <div class="banner-img3"></div>
+                <img src="" alt="profile image" class="profile-img">
+                <h1 class="name">Aditya More</h1>
+                <p class="description">Hi there! My name is Aditya</p>
+                <button class="btn">Contact Me!</button>
+            </div>
+            <div class="container">
+                <div class="banner-img4"></div>
+                <img src="" alt="profile image" class="profile-img">
+                <h1 class="name">Shrinidhi Kulkarni</h1>
+                <p class="description">Hi there! My name is Shrinidhi</p>
+                <button class="btn">Contact Me!</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
